@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./esilo.css" />
     <link rel="stylesheet" href="./esilo.css">
+    <script defer type="text/javascript" src="./codigo.js"></script>
   </head>
   <body>
     <h1>TITULO</h1>
@@ -16,9 +17,14 @@
       fugit?
     </p>
     <h3>titulo 2</h3>
-    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-primary" onclick="mensagem()">Primary</button>
     <hr />
     <input type="text" placeholder="CPF" />
+    <select onchange="mensagem(value)"> 
+      <option value="#FF5733"> Opção 1</option>
+      <option value="#33FF57" >Opção 2</option>
+      <option value="#3357FF" >Opção 3</option>    
+  </select>
 
     <ul>
       <li>item 1</li>
